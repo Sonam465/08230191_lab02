@@ -41,15 +41,15 @@
   <div class="main-content">
 
     <!-- Home Section -->
-    <section id="home" class="section active" style="background-image:url('images/home.jpg'); background-size:cover; background-position:center;">
-      <div class="overlay home-overlay">
-        <div class="home-card">
-          <h1>Hello, welcome to my journey!</h1>
-          <p>Web Developer & Creative Thinker. Turning ideas into interactive digital experiences.</p>
-          <a href="#about" class="btn-explore" onclick="showSection('about','#FF6B6B')">Explore My Portfolio</a>
-        </div>
-      </div>
-    </section>
+<section id="home" class="section" style="background-image:url('images/home.jpg'); background-size:cover; background-position:center; position:relative; height:100vh;">
+  <div class="home-overlay">
+    <h1 style="font-size:45px; font-family:'Montserrat', sans-serif; font-weight:900; letter-spacing:2px; color:#fff; text-shadow: 2px 2px 6px rgba(0,0,0,0.5);">Hello, welcome!</h1>
+    <p style="font-size:24px; font-family: 'Times New Roman', Times, serif; ">Web Developer & Creative Thinker-Turning ideas into interactive digital experiences.</p>
+    <a href="#about" class="btn-explore" onclick="showSection('about','#FF6B6B')" style="font-family:'Times New Roman',serif;">Explore My Portfolio</a>
+
+  </div>
+</section>
+
 
     <!-- About Me Section -->
 <section id="about" class="section" style="background-image:url('images/about_bg.jpg'); background-size:cover; background-position:center;">
@@ -60,40 +60,44 @@
       </div>
       <div class="about-text">
         <h1>About Me</h1>
-        <p>Hi, my name is Sonam, and I’m from the serene village of Sakteng in Trashigang. I have a deep love for trekking, drawing, and traveling, as these activities allow me to explore not just the world, but also myself. My ultimate goal in life is to seek peace through solo explorations in nature, to find stillness and clarity while distancing myself from the chaos of the modern world.</p>
+        <p style="font-size:17px; line-height:1.6;">Hi, my name is Sonam, and I’m from the serene village of Sakteng in Trashigang. I have a deep love for trekking, drawing, and traveling, as these activities allow me to explore not just the world, but also myself. My ultimate goal in life is to seek peace through solo explorations in nature, to find stillness and clarity while distancing myself from the chaos of the modern world.</p>
+
       </div>
     </div>
   </div>
 </section>
 
 <!-- Education Section -->
-<section id="education" class="section">
-  <div class="overlay">
-    <h1>My Education Journey</h1>
+<section id="education" class="section" style="background-image:url('images/education_bg.jpg'); background-size:cover; background-position:center;">
+  <div class="overlay-education">
+    <h1 style="text-align:center; margin-bottom:30px;">My Education Journey</h1>
+    <div class="card education-card">
     <div class="education-container">
       <div class="school">
         <img src="images/sakteng.jpg" alt="Sakteng Lower Secondary School">
         <h3>Sakteng Lower Secondary School</h3>
-        <p>This is where my learning journey began, building a strong foundation(class pp-8).</p>
+        <p style="font-size:18px;">This is where my learning journey began, building a strong foundation (class PP-8).</p>
+    
       </div>
       <div class="school">
         <img src="images/dungtse.jpg" alt="Dungtse Central School">
         <h3>Dungtse Central School</h3>
-        <p>Here I explored new subjects and developed interest in ICT(9-10).</p>
+        <p style="font-size:18px;">Here I explored new subjects and developed interest in ICT (9-10).</p>
       </div>
       <div class="school">
         <img src="images/jigme.jpg" alt="Jigme Sherubling CS">
         <h3>Jigme Sherubling Central School</h3>
-        <p>I gained confidence in academics and took part in co-curricular activities(11-12).</p>
+        <p style="font-size:18px;">I gained confidence in academics and took part in co-curricular activities (11-12).</p>
       </div>
       <div class="school">
         <img src="images/samtse_college.jpg" alt="Samtse College of Education">
         <h3>Samtse College of Education</h3>
-        <p>Currently pursuing higher studies to prepare myself as an ICT educator(3rd year).</p>
+        <p style="font-size:18px;">Currently pursuing higher studies to prepare myself as an ICT educator (3rd year).</p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <!-- Skills Section -->
@@ -109,10 +113,9 @@
         <div><i class="fas fa-database"></i><span>MySQL</span></div>
         <div><img src="images/capcut.png" alt="CapCut" style="width:70px; height:70px; object-fit:contain; margin-right:5px;"><span>CapCut</span></div>
 
-
       </div>
       <!-- General description for all skills -->
-      <p class="skills-description">Although I initially found Python, HTML, CSS, JavaScript, and Adobe tools challenging, I approached them with dedication and persistence. Through consistent learning and practice, I have developed the ability to create simple websites and perform basic edits, turning my growing skills into practical projects.</p>
+      <p class="skills-description" style="font-size: 16px;">Although I initially found Python, HTML, CSS, JavaScript, and Adobe tools challenging, I approached them with dedication and persistence. Through consistent learning and practice, I have developed the ability to create simple websites and perform basic edits, turning my growing skills into practical projects.</p>
     </div>
   </div>
 </section>
@@ -126,13 +129,13 @@
         <div class="project">
           <img src="images/water.jpg" class="circle-img" alt="Water Level Indicator">
           <span>Water Level Indicator</span>
-          <p class="project-desc" style="font-size: 10px; color: #333; text-align: center;"> During 2nd semester, I worked on an exciting project called the 'Water Level Indicator.' This device is especially useful for flood-prone areas, as it automatically triggers an alarm when water levels rise, helping to prevent potential hazards.</p>
+          <p class="project-desc" style="font-size: 16px; color: #333; text-align: center;"> During 2nd semester, I worked on an exciting project called the 'Water Level Indicator.' This device is especially useful for flood-prone areas, as it automatically triggers an alarm when water levels rise, helping to prevent potential hazards.</p>
  
         </div>
         <div class="project">
           <img src="images/blender.jpg" class="circle-img" alt="Blender Animation">
           <span>Blender Animation</span>
-          <p class="project-desc"style="font-size: 10px; color: #333; text-align: center;">Currently, I’m working on my own project fueled by my passion for animation. Using Blender software, I create and animate basic figures, and I’m now able to design characters and add vibrant colors to bring them to life.</p>
+          <p class="project-desc"style="font-size: 16px; color: #333; text-align: center;">Currently, I’m working on my own project fueled by my passion for animation. Using Blender software, I create and animate basic figures, and I’m now able to design characters and add vibrant colors to bring them to life.</p>
         </div>
       </div>
     </div>
