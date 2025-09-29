@@ -265,23 +265,3 @@ body { display:flex; height:100vh; overflow:hidden; background:#fff; }
   background: #ddd4d4; /* change to your desired color */
   border: 2px solid #dedbdb;
 }
-
-
-/* Add space above email section */
-.email-text {
-  margin-top: 25px;   /* Creates gap between icons and email text */
-  font-weight: 500;
-}
-
-.email-link {
-  display: inline-block;
-  margin-top: 8px;    /* Small gap between text and email link */
-  color: #000;        /* Black text for consistency */
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.email-link:hover {
-  color: #FF6B6B;     /* Highlight on hover */
-}
